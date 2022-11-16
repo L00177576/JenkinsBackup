@@ -1,0 +1,12 @@
+Started on 16 Nov 2022, 06:57:00
+Using strategy: Default
+[poll] Last Built Revision: Revision 75df30ce600972ac5f13c2ce0fa1f3562e199335 (refs/remotes/origin/main)
+The recommended git tool is: NONE
+No credentials specified
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > git --version # 'git version 2.38.1.windows.1'
+ > C:\Program Files\Git\bin\git.exe ls-remote -h -- git@github.com:L00177576/Jenkins_GithubActions.git # timeout=10
+Found 2 remote heads on git@github.com:L00177576/Jenkins_GithubActions.git
+[poll] Latest remote head revision on refs/heads/main is: 75df30ce600972ac5f13c2ce0fa1f3562e199335 - already built by 9
+Done. Took 12 sec
+No changes

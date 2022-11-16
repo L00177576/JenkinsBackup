@@ -1,0 +1,10 @@
+commit a4d4ee85da6743dd34b9e74fc6d9413497d6eb3a
+tree f84cd0e4a303419886184e75100ef2fdbc191443
+parent 10ca218f94ed3fc37a15176b16f076a38a306cd7
+author Anuradha Goli <L00177576@atu.ie> 2022-11-16 11:07:34 +0000
+committer Anuradha Goli <L00177576@atu.ie> 2022-11-16 11:07:34 +0000
+
+    Added new tests to do auto run
+
+
+:100644 100644 634aa2f4ee80377589b3b4aa7a01e38bfefff5ef 287b05713646a95fd438a715cb04353cef5f694a M	MavenJavaproject/src/test/java/NumbersCompleteTest.java

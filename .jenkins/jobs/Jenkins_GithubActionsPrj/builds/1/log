@@ -1,0 +1,21 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace C:\Users\Anu\AppData\Local\Jenkins\.jenkins\workspace\Jenkins_GithubActionsPrj
+The recommended git tool is: NONE
+using credential 490d03a6-76d4-4e20-b334-f7f9cde0c9cc
+Cloning the remote Git repository
+Cloning repository git@github.com:L00177576/Jenkins_GithubActions.git
+ > git.exe init C:\Users\Anu\AppData\Local\Jenkins\.jenkins\workspace\Jenkins_GithubActionsPrj # timeout=10
+Fetching upstream changes from git@github.com:L00177576/Jenkins_GithubActions.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.38.1.windows.1'
+using GIT_SSH to set credentials 
+Verifying host key using known hosts file
+ > git.exe fetch --tags --force --progress -- git@github.com:L00177576/Jenkins_GithubActions.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url git@github.com:L00177576/Jenkins_GithubActions.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "origin/master^{commit}" # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+Finished: FAILURE

@@ -1,0 +1,37 @@
+Started by user [8mha:////4NDDrgM2Gt3bMzsi/J2PwbCARuua2VtW+xpgvQd/i296AAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZ+/dLi1CL9HAMDQ3NzU3MzALXhYa7EAAAA[0mAnuradha.Goli
+Running as SYSTEM
+Building in workspace C:\Users\Anu\AppData\Local\Jenkins\.jenkins\workspace\CALab3Jenkins
+The recommended git tool is: NONE
+using credential 490d03a6-76d4-4e20-b334-f7f9cde0c9cc
+ > C:\Program Files\Git\bin\git.exe rev-parse --resolve-git-dir C:\Users\Anu\AppData\Local\Jenkins\.jenkins\workspace\CALab3Jenkins\.git # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url git@github.com:L00177576/CALab3.git # timeout=10
+Fetching upstream changes from git@github.com:L00177576/CALab3.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > git --version # 'git version 2.38.1.windows.1'
+using GIT_SSH to set credentials 
+Verifying host key using known hosts file
+ > C:\Program Files\Git\bin\git.exe fetch --tags --force --progress -- git@github.com:L00177576/CALab3.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 721cdd7707744423a424ee215776ae6db2db3063 (refs/remotes/origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f 721cdd7707744423a424ee215776ae6db2db3063 # timeout=10
+Commit message: "unnecessay files removed"
+ > C:\Program Files\Git\bin\git.exe rev-list --no-walk 721cdd7707744423a424ee215776ae6db2db3063 # timeout=10
+[CALab3Jenkins] $ cmd.exe /C "C:\maven\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin\mvn.cmd test && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.480 s
+[INFO] Finished at: 2022-11-15T20:09:55Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4HTC7duhxNdQZ66v4BGOsNU/3ubCDq+T+trmvW/XOGibAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] The goal you specified requires a project to execute but there is no POM in this directory (C:\Users\Anu\AppData\Local\Jenkins\.jenkins\workspace\CALab3Jenkins). Please verify you invoked Maven from the correct directory. -> [Help 1]
+[8mha:////4HTC7duhxNdQZ66v4BGOsNU/3ubCDq+T+trmvW/XOGibAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4HTC7duhxNdQZ66v4BGOsNU/3ubCDq+T+trmvW/XOGibAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4HTC7duhxNdQZ66v4BGOsNU/3ubCDq+T+trmvW/XOGibAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4HTC7duhxNdQZ66v4BGOsNU/3ubCDq+T+trmvW/XOGibAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4HTC7duhxNdQZ66v4BGOsNU/3ubCDq+T+trmvW/XOGibAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4HTC7duhxNdQZ66v4BGOsNU/3ubCDq+T+trmvW/XOGibAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MissingProjectException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

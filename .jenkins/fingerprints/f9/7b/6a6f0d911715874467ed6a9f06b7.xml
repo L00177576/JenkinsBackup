@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-11-15 20:01:05.643 UTC</timestamp>
+  <md5sum>f97b6a6f0d911715874467ed6a9f06b7</md5sum>
+  <fileName>Credential id=490d03a6-76d4-4e20-b334-f7f9cde0c9cc name=Anu</fileName>
+  <usages>
+    <entry>
+      <string>CALab3Jenkins</string>
+      <ranges>1-6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

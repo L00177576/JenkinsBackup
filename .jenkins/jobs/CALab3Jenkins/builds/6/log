@@ -1,0 +1,62 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace C:\Users\Anu\AppData\Local\Jenkins\.jenkins\workspace\CALab3Jenkins
+The recommended git tool is: NONE
+using credential 490d03a6-76d4-4e20-b334-f7f9cde0c9cc
+ > C:\Program Files\Git\bin\git.exe rev-parse --resolve-git-dir C:\Users\Anu\AppData\Local\Jenkins\.jenkins\workspace\CALab3Jenkins\.git # timeout=10
+Fetching changes from the remote Git repository
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url git@github.com:L00177576/CALab3.git # timeout=10
+Fetching upstream changes from git@github.com:L00177576/CALab3.git
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > git --version # 'git version 2.38.1.windows.1'
+using GIT_SSH to set credentials 
+Verifying host key using known hosts file
+ > C:\Program Files\Git\bin\git.exe fetch --tags --force --progress -- git@github.com:L00177576/CALab3.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision a4d4ee85da6743dd34b9e74fc6d9413497d6eb3a (refs/remotes/origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f a4d4ee85da6743dd34b9e74fc6d9413497d6eb3a # timeout=10
+Commit message: "Added new tests to do auto run"
+ > C:\Program Files\Git\bin\git.exe rev-list --no-walk 10ca218f94ed3fc37a15176b16f076a38a306cd7 # timeout=10
+[CALab3Jenkins] $ cmd.exe /C "C:\maven\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin\mvn.cmd -f MavenJavaproject/pom.xml test && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< MavenJavaproject:MavenJavaproject >------------------
+[INFO] Building MavenJavaproject 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4H3IFdWECaKfxA37yZtVTqe2F9a0S6Gb1n3MzoEHK2FIAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ MavenJavaproject ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Anu\AppData\Local\Jenkins\.jenkins\workspace\CALab3Jenkins\MavenJavaproject\src\main\resources
+[INFO] 
+[8mha:////4H3IFdWECaKfxA37yZtVTqe2F9a0S6Gb1n3MzoEHK2FIAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ MavenJavaproject ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4H3IFdWECaKfxA37yZtVTqe2F9a0S6Gb1n3MzoEHK2FIAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ MavenJavaproject ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\Anu\AppData\Local\Jenkins\.jenkins\workspace\CALab3Jenkins\MavenJavaproject\src\test\resources
+[INFO] 
+[8mha:////4H3IFdWECaKfxA37yZtVTqe2F9a0S6Gb1n3MzoEHK2FIAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ MavenJavaproject ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\Anu\AppData\Local\Jenkins\.jenkins\workspace\CALab3Jenkins\MavenJavaproject\target\test-classes
+[INFO] 
+[8mha:////4H3IFdWECaKfxA37yZtVTqe2F9a0S6Gb1n3MzoEHK2FIAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ MavenJavaproject ---
+[INFO] Surefire report directory: C:\Users\Anu\AppData\Local\Jenkins\.jenkins\workspace\CALab3Jenkins\MavenJavaproject\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running NumbersCompleteTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.444 sec
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:29 min
+[INFO] Finished at: 2022-11-16T06:36:02Z
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS
